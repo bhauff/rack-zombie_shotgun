@@ -1,0 +1,3 @@
+h1. rack-zombie_shotgun
+
+rack-zombie_shotgun is released under the MIT license.
