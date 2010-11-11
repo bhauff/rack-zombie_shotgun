@@ -1,7 +1,6 @@
 h1. rack-zombie_shotgun: A Rack Middleware to eliminate zombie requests!
 
-rack-zombie_shotgun is a Rack Middleware that will eliminate a number of pesky
-zombie requests to your application:
+rack-zombie_shotgun is a Rack Middleware that will eliminate a number of pesky zombie requests to your application:
 
 * Agents
 ** Microsoft Office Protocol Discovery
@@ -15,12 +14,10 @@ zombie requests to your application:
 * Methods
 ** Options
 
-Agent and Directory request attacks will return a 404 head not found :) Method
-request attacks will return a 405 method not allowed.
+Agent and Directory request attacks will return a 404 head not found :) Method request attacks will return a 405 method not allowed.
 
-This Rack Middleware was inspired and based on code by metaskills and his
-rack-zombieshotgun.
+This Rack Middleware was inspired and based on code by metaskills and his rack-zombieshotgun.
 
-h2. License
+h1. License
 
 See LICENSE file.
